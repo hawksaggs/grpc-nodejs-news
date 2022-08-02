@@ -23,7 +23,7 @@ let news = [
 // Get all news
 function getAllNews(_, callback) {
   console.log(news);
-  callback(null, news);
+  callback(null, { news: news });
 }
 // Add news
 function addNews(call, callback) {
